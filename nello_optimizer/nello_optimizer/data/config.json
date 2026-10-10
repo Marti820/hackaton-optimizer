@@ -1,0 +1,46 @@
+{
+  "horizon": {
+    "start": "2026-10-12",
+    "end": "2026-11-08"
+  },
+  "weights": {
+    "heavy_medical": 3.0,
+    "routine_medical": 2.0,
+    "admin": 1.5,
+    "errand": 1.5,
+    "leisure": 1.0
+  },
+  "caregivers": [
+    {
+      "id": "luc",
+      "name": "Luc",
+      "capabilities": [],
+      "dislikes": []
+    },
+    {
+      "id": "marie",
+      "name": "Marie",
+      "capabilities": [
+        "car"
+      ],
+      "dislikes": []
+    },
+    {
+      "id": "michel",
+      "name": "Michel",
+      "capabilities": [
+        "car"
+      ],
+      "dislikes": []
+    },
+    {
+      "id": "sophie",
+      "name": "Sophie",
+      "capabilities": [],
+      "dislikes": [
+        "heavy_medical",
+        "routine_medical"
+      ]
+    }
+  ]
+}
